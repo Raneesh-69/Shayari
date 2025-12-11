@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ===== Body ===== */
 body {
   margin: 0;
@@ -185,3 +186,192 @@ body {
   transform: scale(1.1);
   background: #ffe6e6;
 }
+=======
+/* ===== Body ===== */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ===== Floating Hearts ===== */
+.hearts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.heart {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  transform: rotate(45deg);
+  animation: floatUp 6s linear infinite;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+}
+
+.heart::before {
+  top: -10px;
+  left: 0;
+}
+
+.heart::after {
+  top: 0;
+  left: -10px;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(100vh) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+/* ===== Container ===== */
+.container {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== Title ===== */
+.title {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #ff4e50, 0 0 20px #ff4e50, 0 0 30px #ffafbd;
+  animation: glow 2s ease-in-out infinite alternate,
+    pulse 1.5s infinite alternate;
+  position: relative;
+  z-index: 20;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff4e50, 0 0 20px #ff4e50, 0 0 30px #ffafbd;
+  }
+  to {
+    text-shadow: 0 0 20px #ff4e50, 0 0 30px #ffafbd, 0 0 40px #ffc3a0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+/* ===== Mini Hearts Around Title ===== */
+.title-hearts {
+  position: absolute;
+  top: 50px; /* adjust to match title position */
+  left: 50%;
+  width: 200px;
+  height: 100px;
+  transform: translateX(-50%);
+  pointer-events: none;
+  overflow: visible;
+  z-index: 15;
+}
+
+.title-heart {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff4e50;
+  transform: rotate(45deg);
+  animation: floatMini 3s linear infinite;
+}
+
+.title-heart::before,
+.title-heart::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff4e50;
+  border-radius: 50%;
+}
+
+.title-heart::before {
+  top: -5px;
+  left: 0;
+}
+.title-heart::after {
+  top: 0;
+  left: -5px;
+}
+
+@keyframes floatMini {
+  0% {
+    transform: translateY(0) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-50px) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+/* ===== Shayari ===== */
+.shayari {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 20px;
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out;
+  min-height: 60px;
+}
+
+/* ===== Buttons ===== */
+.buttons button,
+.musicBtn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  color: #ff4e50;
+  font-weight: bold;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.buttons button:hover,
+.musicBtn:hover {
+  transform: scale(1.1);
+  background: #ffe6e6;
+}
+>>>>>>> 2c1ab2f06173b0e1ead4acb87e522da5588b9c74
