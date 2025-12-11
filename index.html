@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHAYARI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Floating Hearts Container -->
+    <div class="hearts"></div>
+
+    <!-- Mini Hearts for Title -->
+    <div class="title-hearts"></div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" src="music.mp3" loop></audio>
+
+    <!-- Main Container -->
+    <div class="container">
+      <!-- Title -->
+      <h1 class="title">THE RANYYY VERSE</h1>
+
+      <!-- Shayari Text -->
+      <div id="shayariBox" class="shayari">Loading...</div>
+
+      <!-- Navigation Buttons -->
+      <div class="buttons">
+        <button onclick="prevShayari()">⬅ Previous</button>
+        <button onclick="nextShayari()">Next ➡</button>
+      </div>
+
+      <!-- Music Toggle Button -->
+      <button onclick="toggleMusic()" class="musicBtn">💖🎧💖</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
