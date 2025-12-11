@@ -1,6 +1,6 @@
 // ===== Shayaris =====
 const shayaris = [
-  "ko mere haathon mein <br> hello",
+  "Haathon ko sambhaale mere haathon mein <br> hello",
   "Kaise haathon ko sambhaale mere haathon mein?",
   "Jab tak neend na aaye in lakeeron mein",
   "Baatein hon… Haan…",
