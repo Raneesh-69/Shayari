@@ -11,10 +11,9 @@ const shayaris = [
   "Teri tarah har kisi ko Aankho ka noor nahi milta👀<br>Dost toh sabhi ko mil jate hai<br>lekin<br>Tere jaisa KOHINOOR nahi milta💎",
   "Nasha mohabbat ka ho💖ya sharaab ka 🍻<br> hosh dono me kho jate hai<br>Farq sirf itna hai<br>Sharaab sula deti hai aur Mohabbat rula deti hai💔",
   "ke ye Dost tujhse vaadha karta hun🤝<br>Puri zindagi ye dosti nibhaatha Rahunga🖖<br>aur agar pad gaya kisi musibat me<br>toh sabse pehle khada mei Rahunga🫂",
-  "Main chat hoon mujhe dewaaro ki zarurat nahi padthi<br>ek yaar hi kaaafi hai mujhe Hazaaro ki zarurat nahi padthi<br>aur Bhid leke aane waalo se nahi jalte<br>Jiska yaar hi chaand ho usko sitaaro ki zarurat nahi padthi",
-  "Jiska intezaar hai usko fikar thak nahi <br> Uski zubaan pe mera zikar thak nahi <br> Ek tarfa pyaar me ek hi Kami hai Yaaro<br>Ek Tadapta hai dusre ko Kadar thak nahi",
-  "Ishq ki bas pehli hawa Suhaani hoti hai<br>uske baad barbaad puri Jawaani hoti hai<br>har ladka shouq me cigarette nahi peeta<br>uske peeche bhi yaaro koi kahaani hoti hai ",
-  "Tum woh chaand ho jispe koi dhaag nahi <br> Tum itni khubsurat ho jiska koi hisaab nahi",
+  "Jiska intezaar hai usko fikar thak nahi <br> Uski zubaan pe mera zikar thak nahi <br> Ek tarfa pyaar me ek hi Kami hai Yaaro<br>Ek Tadapta hai dusre ko Kadar thak nahi💔",
+  "Ishq ki bas pehli hawa Suhaani hoti hai<br>uske baad barbaad puri Jawaani hoti hai<br>har ladka shouq me cigarette🚬 nahi peeta<br>uske peeche bhi yaaro koi kahaani hoti hai ",
+  "Tum woh chaand ho jispe koi dhaag nahi🌕 <br> Tum itni khubsurat ho jiska koi hisaab nahi",
   "Tum Yaad nahi karte aur hum Bhula nahi sakthe<br>Tum Hasa nahi sakthe...Hum Rula nahi sakthe<br>Itni Khubsurat Mohabbat hai humari<br>Ki tum jaan nahi sakthe aur hum bata nahi sakthe",
   "barso gusar gaye kabhi Rokar nahi dekha<br>Aankhon me neendh thi kabhi Sokar nahi dekha<br>Woh kya jaane dard mohabbat ka <br>jisne kabhi kisika Hokar nahi dekha",
   "Teri kaamyabi par tareef<br>Teri koshish par tanna hoga<br>Tere dukh mein kuch log<br>Tere sukh mein zamaana hoga",
@@ -24,6 +23,10 @@ const shayaris = [
   "Uske bina ghar bhi ghar nahi lagta,<b>Uske bina pal bhar bhi sakoon nahi milta,<br>Behen sirf rishta nahi, ek aasra hota hai…<br>Jo zindagi bhar saath chalta aur kabhi nahi hilta.",
   "Meri rooh ka ek hissa usme basa hota hai,<br>Har gham ka faisla uski muskurahat se hota hai,<br>Log kehte hain farishta koi hota nahi…<br>Shayad unhone mere dost ko dekha hi nahi.",
   "Roshni chaand se aati hai...Sitaaro se nahi⭐<br>Roshni chaand se aati hai🌕 Sitaaro se nahi<br>Mohabbat ek se hoti hai hazaaro se nahi💘",
+  "Ham dosth bankar kisi ko rulate nahi<br>Dil me baskar kisiko bhulaate nahi<br>Ham tho Dosth ke liye Jaan bhi De sakthe hai<br>Par tum sochthe ho ki Ham Dosthi nibhaate nahi🙂",
+  "Sacchi Dosthi bejubaan hoti hai <br>Ye tho Aankhon se baya hoti hai<br>Dosthi me dard mile tho kya<br>Dard me hi hamari dosthi ki pehchan hoti hai...<br>Miss you yaar🙂",
+  "Lakheere tho hamari bhi bahut khaas hai<br>Isliye tere jaisa dosth mere paas hai🙂",
+  "Main chat hoon mujhe dewaaro ki zarurat nahi padthi<br>ek yaar hi kaaafi hai mujhe Hazaaro ki zarurat nahi padthi🤗<br>aur Bhid leke aane waalo se nahi jalte<br>Jiska yaar hi chaand🌕 ho usko sitaaro⭐ ki zarurat nahi padthi",
 ];
 
 const names = [
@@ -38,7 +41,7 @@ const names = [
   "Neha",
   "Her",
   "Shravan",
-  "Hari",
+
   "Her",
   "Self",
   "Neha",
@@ -49,7 +52,12 @@ const names = [
   "Her",
   "Sharmila",
   "Sharmila",
-  "Akshay",
+  "Hari",
+  "Her",
+  "Hari",
+  "Hari",
+  "Hari",
+  "Hari",
 ];
 
 let currentIndex = 0;
